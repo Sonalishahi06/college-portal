@@ -1,32 +1,21 @@
 import React from 'react';
-import collegelogo from '../assets/LOGO.jpg';
-
+import { Link } from "react-router-dom";
 import './Navbar.css';
 
 function Navbar() {
   return (
     <nav className="navbar">
-    <div className="logo"><img src={collegelogo} alt="College Logo"/>  
-        <div className="college-text">
-          <h2>BP Mandal College of Engineering, Madhepura</h2>
-          <p>
-            ( Dept. of Science, Technology and Technical Education,
-            Govt. of Bihar )
-          </p>
-        </div> 
-    </div>
-
-        <ul className="link">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#academics">Academics</a></li>
-            <li><a href="#departments">Departments</a></li>
-            <li><a href="#about">facilities & Services</a></li>
-            <li><a href="#programs">Training & Placement</a></li>
-            <li><a href="#cources">Gallery</a></li>
-            <li><a href="#events">Login</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+         <ul className="link">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/academics">Academics</Link></li>
+        <li><Link to="/departments">Departments</Link></li>
+        <li><Link to="/facilities">Facilities & Services</Link></li>
+        <li><Link to="/placement">Training & Placement</Link></li>
+        <li><Link to="/gallery">Gallery</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/login">Login Panel</Link></li>
+      </ul>
     </nav>
   );
 }

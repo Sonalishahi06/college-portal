@@ -1,0 +1,48 @@
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Logos */
+.logo {
+  width: 90px;
+}
+
+/* Text */
+.header-text {
+  text-align: center;
+  flex: 1;
+}
+
+.header-text h1 {
+    font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin: 0;
+  color: brown;
+  font-weight: bolder;
+}
+
+
+.header-text h4 {
+  font-size: 20px;
+  color: black;
+  margin: 6px 0;
+}
+
+
+.right-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.established {
+  margin-top: 6px;
+ font-weight: bold;
+  color: #7b1113;
+  font-size: 15px;
+}

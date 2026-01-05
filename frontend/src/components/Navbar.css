@@ -1,36 +1,9 @@
-
-.navbar{
-display: flex;
-justify-content: space-between;
-align-items: center;
- background-color: #1E40AF; 
-padding: 0 40px;
- color: aqua; 
- 
-}
-.logo {
-  display: flex;
-  align-items: center;
+.navbar {
+  width: 100%;
+  background-color: #7b1113; 
+  padding: 12px 0;
 }
 
-.navbar .logo img{
-   width: 55px;
-   height: 55px;
-   object-fit: cover;
-   border-radius: 50px;
-   margin-right: 12px;
-}
-
-.college-text h2 {
-  margin: 0;
-  font-size: 18px;
-  color: #ffffff;
-}
-.college-text p {
-  margin: 0;
-  font-size: 12px;
-  color: #dddddd;
-}
 .navbar .link{
     list-style: none;
     display: flex;
@@ -40,12 +13,17 @@ padding: 0 40px;
     padding: 0;
 }
 .navbar .link li a {
-    color: aqua;
-    text-decoration: none;
-    font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 6px 10px;
+  transition: all 0.3s ease;
 }
 .navbar .link li a:hover{
-    color:white;
-    transition: 0.3s;
-    
+   background-color: white;
+  color: #7b1113;          
+  border-radius: 4px;
+  text-decoration: none;
 }
