@@ -1,0 +1,87 @@
+.footer {
+  background-color: #450000;
+  color: #fff;
+  padding: 40px 20px 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section p{
+  font-size: 15px;
+}
+.footer-section h2{
+  font-size: 35px;        
+  margin-bottom: 18px;    
+  color: #fff;
+}
+
+.footer-section ul {
+  display: flex;    
+  gap: 20px;
+}
+
+.footer-section ul a {
+  color: #fff;                
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  
+}
+
+.footer-section ul a:hover {
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.2);
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.contact-item i {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 3px;
+}
+.contact-item i:hover {
+  transform: scale(1.3);   
+}
+.contact-item span {
+  line-height: 1.6;
+}
+
+.map-link {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.map-image {
+  width: 100%;
+  max-width: 220px;
+  cursor: pointer;
+  border: 1px solid #444;
+  transition: transform 0.3s ease;
+}
+
+.map-image:hover {
+  transform: scale(1.05);
+}
+

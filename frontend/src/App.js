@@ -9,13 +9,14 @@ import Contact from "./pages/Contact";
 import Academics from './pages/Academics';
 import Gallery from './pages/Gallery';
 import Departments from './pages/Department';
+import Footer from './components/Footer';
+import FooterBottom from './components/FooterBottom';
 
 function App() {
   return (
     <BrowserRouter>
-    <Header/>
+      <Header/>
       <Navbar/>
-      
        <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -25,6 +26,8 @@ function App() {
         <Route path='/gallery' element={<Gallery/>}/>
         <Route path='/departments' element={<Departments/>}/>
       </Routes>
+      <Footer/>
+      <FooterBottom/>
    
     </BrowserRouter>
     
