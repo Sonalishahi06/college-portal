@@ -1,0 +1,145 @@
+.about-page{
+    padding: 60px 100px;
+    min-height: 80vh;
+     background-color: #f0f2f5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-heading{
+text-align: center;
+margin: 40px 0;
+}
+
+.about-heading h1{ 
+  display: inline-block; 
+  font-size: 42px;
+  margin-bottom: 50px;
+  padding: 12px 30px;
+  font-weight: 700;
+  color: #450000;
+  background-color: rgba(128, 0, 0, 0.08);
+  border-radius: 6px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.about-image{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.about-image img{
+  width: 280px;          
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.about-menu {
+  width: 25%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-menu button {
+    min-width: 200px;
+  padding: 14px 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #212529;
+  color:#fff;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+
+.about-menu button:hover {
+  background-color: #450000;
+}
+.about-menu button.active {
+  background-color: #450000;
+  color: #fff;
+  font-weight: 600;
+}
+.about-content {
+  width: 50%;
+  background-color: #fafafa;
+  padding: 25px 30px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  border-radius: 6px;
+}
+
+.vision{
+    width: 100%;  
+}
+.section-heading {
+  font-size: 34px;
+  color: #450000;
+  margin: 20px 0 5px 0;
+}
+.section-line {
+  border: none;
+  height: 2px;
+  background-color: #450000;
+}
+.courses-table{
+    width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.courses-table th, .courses-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.courses-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.courses-note {
+  margin-top: 20px;
+}
+
+.faculty-points {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.faculty-points li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+.faculty-note {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.campus-points {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.campus-points li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+.campus-note {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 1.8;
+}
