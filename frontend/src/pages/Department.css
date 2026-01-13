@@ -1,0 +1,141 @@
+.page{
+    padding: 60px 100px;
+    min-height: 80vh;
+    background-color: #f0f2f5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading{
+    text-align: center;
+    margin: 40px 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.heading h1{ 
+  display: inline-block; 
+  font-size: 42px;
+  margin-bottom: 50px;
+  padding: 12px 30px;
+  font-weight: 700;
+  color: #450000;
+  background-color: rgba(128, 0, 0, 0.08);
+  border-radius: 6px;
+}
+.menu{
+  width: 25%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu button {
+  min-width: 200px;
+  padding: 14px 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #212529;
+  color:#fff;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;  
+}
+
+.menu button:hover {
+  background-color: #450000;
+}
+.menu button.active {
+  background-color: #450000;
+  color: #fff;
+  font-weight: 600;
+}
+
+.content {
+  width: 50%;
+  background-color: #fafafa;
+  padding: 25px 30px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  border-radius: 6px;
+}
+.img{
+    width: 100%;
+}
+
+.section-heading {
+  font-size: 34px;
+  color: #450000;
+  margin: 20px 0 5px 0;
+}
+.section-line {
+  border: none;
+  height: 2px;
+  background-color: #4f4f4f;
+}
+
+.faculty-box {
+  margin-top: 10px;
+  width: 100%;
+  border: 2px solid #2c3e50;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.faculty-box h3 {
+  margin: 0 0 15px 0;
+  text-align: center;
+  color: #2c3e50;
+  font-size:25px;
+}
+
+.faculty-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+/* .faculty-img img {
+  width: 120px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+} */
+
+
+.faculty-info p {
+  font-size: 19px;
+}
+
+.profile-icon {
+  width: 120px;
+  height: 140px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  background-color: #eee;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+#ce{
+    font-size: 25px;
+}
+.about-pages{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.hod-sign{
+    font-size: 15px;
+}
+
