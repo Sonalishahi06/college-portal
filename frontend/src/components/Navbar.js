@@ -11,9 +11,9 @@ function Navbar() {
         <li><Link to="/academics">Academics</Link></li>
         <li><Link to="/departments">Departments</Link></li>
         <li><Link to="/facilities">Facilities & Services</Link></li>
-        <li><Link to="/placement">Training & Placement</Link></li>
-        <li><Link to="/gallery">Gallery</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        {/* <li><Link to="/placement">Training & Placement</Link></li> */}
+        {/* <li><Link to="/gallery">Gallery</Link></li> */}
+        {/* <li><Link to="/contact">Contact</Link></li> */}
         <li><Link to="/login">Login Panel</Link></li>
       </ul>
     </nav>

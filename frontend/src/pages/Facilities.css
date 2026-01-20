@@ -1,0 +1,72 @@
+.page{
+    padding: 60px 100px;
+    min-height: 80vh;
+    background-color: #f0f2f5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading{
+    text-align: center;
+    margin: 40px 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.heading h1{ 
+  display: inline-block; 
+  font-size: 42px;
+  margin-bottom: 50px;
+  padding: 12px 30px;
+  font-weight: 700;
+  color: #450000;
+  background-color: rgba(128, 0, 0, 0.08);
+  border-radius: 6px;
+}
+.menu{
+  width: 25%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.menu button {
+  min-width: 200px;
+  padding: 14px 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #212529;
+  color:#fff;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;  
+}
+
+.menu button:hover {
+  background-color: #450000;
+}
+.menu button.active {
+  background-color: #450000;
+  color: #fff;
+  font-weight: 600;
+}
+.content {
+  width: 50%;
+  background-color: #fafafa;
+  padding: 25px 30px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  border-radius: 6px;
+}
+.section-heading {
+  font-size: 34px;
+  color: #450000;
+  margin: 20px 0 5px 0;
+}
+.section-line {
+  border: none;
+  height: 2px;
+  background-color: #4f4f4f;
+}
