@@ -1,4 +1,4 @@
-import React, { act, useState } from "react";
+import React, { useState } from "react";
 import img from "../assets/banner-civil-engineering.jpg";
 // import imgg from "../assets/download.gif";
 import img1 from "../assets/download1.jpg";
