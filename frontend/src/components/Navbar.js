@@ -14,7 +14,7 @@ function Navbar() {
         {/* <li><Link to="/placement">Training & Placement</Link></li> */}
         {/* <li><Link to="/gallery">Gallery</Link></li> */}
         {/* <li><Link to="/contact">Contact</Link></li> */}
-        <li><Link to="/login">Login Panel</Link></li>
+        {/* <li><Link to="/login">Login Panel</Link></li> */}
       </ul>
     </nav>
   );
